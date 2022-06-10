@@ -39,7 +39,7 @@
           <h1 class="mb-8 text-4xl font-bold leading-none tracking-tighter text-indigo-600 md:text-7xl lg:text-5xl">
             would you like to see some work i have done ?</h1>
           <p class="mb-8 text-base leading-relaxed text-left text-gray-400">I am available for freelance work in a
-            consulting capacity, or as a tech advisor for your company you can also hire me or a permanent role</p>
+            consulting capacity, or as a tech advisor for your company you can also hire me for a permanent role</p>
           <div class="mt-0 lg:mt-6 max-w-7xl sm:flex">
             <div class="mt-3 rounded-lg sm:mt-0">
               <a href="https://myprofilesiteweb.netlify.app/"
