@@ -19,4 +19,4 @@ yarn build
 
  Started testing out  Tailwind, its definitely much more efficient when it comes to producing high quality layouts and components.
 
- Tailwind can  helpe  streamline your workflo
+ Tailwind can  help  streamline your workflow
