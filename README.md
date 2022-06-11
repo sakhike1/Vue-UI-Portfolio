@@ -1,4 +1,4 @@
-# Vue=Ui_Portfolio
+# Vue Ui Portfolio
 
 ## Project setup
 ```
