@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
+    <div class="px-4 py-12 mx-auto  sm:px-6 md:px-12 lg:px-24 lg:py-24 bg-black ">
       <div class="flex flex-col w-full mb-12 text-center">
         <div
           class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mx-auto mb-5 text-blue-600 rounded-full bg-gray-50">
@@ -30,7 +30,7 @@
   </section>
 
   <section>
-    <div class="px-4 py-12 mx-auto 2xl:max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24 2xl:px-12">
+    <div class="px-4 py-12 mx-auto  sm:px-6 md:px-12 lg:px-24 lg:py-24 2xl:px-12 bg-black">
       <div class="flex flex-wrap items-center mx-auto 2xl:max-w-7xl">
         <div class="flex flex-col items-start mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-24 md:mb-0">
           <span class="mb-8 text-xs font-bold tracking-widest text-black uppercase">
@@ -38,12 +38,12 @@
           </span>
           <h1 class="mb-8 text-4xl font-bold leading-none tracking-tighter text-indigo-600 md:text-7xl lg:text-5xl">
             would you like to see some work i have done ?</h1>
-          <p class="mb-8 text-base leading-relaxed text-left text-gray-400">I am available for freelance work in a
-            consulting capacity, or as a tech advisor for your company you can also hire me for a permanent role</p>
+          <p class="mb-8 text-base leading-relaxed text-left text-neutral-600">I am available for freelance work in a
+            consulting capacity, or as a tech advisor for your company you can also hire me or a permanent role</p>
           <div class="mt-0 lg:mt-6 max-w-7xl sm:flex">
             <div class="mt-3 rounded-lg sm:mt-0">
-              <a href="https://myprofilesiteweb.netlify.app/"
-                class="bg-indigo-600 hover:bg-black space-x-4 text-white text-center py-4 px-10 rounded-full">See
+              <a href="https://vuetify-todo-task.netlify.app/#/"
+                class=" hover:bg-indigo-600 border space-x-4 text-white text-center py-4 px-10 rounded-full">See
                 projects</a>
             </div>
             <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3"> </div>
