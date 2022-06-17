@@ -1,6 +1,6 @@
 <template>
   <v-parallax height="300" src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg">
-    <section class="relative py-20 2xl:py-40 bg-gradient-to-r from-gray-700 via-gray-900 to-black overflow-hidden">
+    <section class="relative py-20 2xl:py-40 bg-black overflow-hidden">
       <div class="container px-3 mx-auto">
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="my-10 text-5xl lg:text-6xl font-bold font-heading text-white">I like building things on the
@@ -10,7 +10,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
+    <section class="bg-black">
       <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
         <div class="mt-6">
           <div class="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-3">
@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
+    <section class="bg-black">
       <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div class="lg:py-12 lg:col-span-2">
