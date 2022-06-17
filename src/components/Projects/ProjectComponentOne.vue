@@ -70,7 +70,7 @@
           <div class="flex flex-col mb-12 overflow-hidden cursor-pointer">
             <a href="https://speech-app-kappa.vercel.app/">
               <div class="flex-shrink-0">
-                <img class="object-fit w-full h-48 rounded-lg " src="Vuetify-image.png" alt="" />
+                <img class="object-fit w-full h-48 rounded-lg " src="@/assets/Vuetify-image.png" alt="" />
               </div>
             </a>
             <div class="flex flex-col pt-8 justify-between flex-1">
