@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full">
+  <section class="w-full bg-black">
     <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
       <div class="flex w-full mx-auto text-left">
         <div class="relative inline-flex items-center mx-auto align-middle">
@@ -9,13 +9,11 @@
               Developer devoted <br class="hidden lg:block" />
               to crafting beautiful web apps
             </h1>
-            <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-white">
-              I love learning and trying to keep up with the latest techonology
-            </p>
-            <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+
+            <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6 pt-6">
               <div class="mt-3 rounded-lg sm:mt-0">
                 <a href="https://www.filemail.com/d/aewcidochcqbwfb"
-                  class="bg-indigo-600 hover:bg-black space-x-4 text-white text-center py-4 px-10 rounded-full">Download
+                  class="border hover:bg-white space-x-4 hover:text-black text-white hover:border-indigo-300 text-center py-4 px-10 rounded-full">Download
                   resume</a>
               </div>
               <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3"> </div>
@@ -27,7 +25,7 @@
   </section>
 
   <section>
-    <div class="px-4 bg-white py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+    <div class="px-4 bg-black py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
         <div class="relative z-10 lg:py-16">
           <div class="relative h-64 sm:h-80 lg:h-full">
@@ -40,11 +38,11 @@
           <span class="hidden lg:inset-y-0 lg:absolute lg:w-16 lg:bg-black lg:block lg:-left-16"></span>
 
           <div class="p-8 sm:p-16 lg:p-24">
-            <h2 class="text-2xl text-white font-bold sm:text-3xl">
+            <h2 class="text-2xl  text-neutral-600 font-bold sm:text-3xl pb-8">
               Do you need exra hands for your next projects ?
             </h2>
 
-            <a class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+            <a class=" hover:bg-indigo-600  border space-x-4 text-white text-center py-4 px-10  rounded-full"
               href="/#Contact">
               Get in Touch
             </a>
