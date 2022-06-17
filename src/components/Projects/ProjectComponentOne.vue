@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-black">
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div class="flex flex-col mb-16 sm:text-center sm:mb-0">
@@ -14,7 +14,7 @@
     </div>
   </div>
   <section>
-    <div class="relative bg-white items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24">
+    <div class="relative bg-black items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24">
       <div class="relative mx-auto max-w-7xl">
         <div class="grid max-w-lg gap-12 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
           <div class="flex flex-col mb-12 overflow-hidden cursor-pointer">
@@ -70,7 +70,7 @@
           <div class="flex flex-col mb-12 overflow-hidden cursor-pointer">
             <a href="https://speech-app-kappa.vercel.app/">
               <div class="flex-shrink-0">
-                <img class="object-fit w-full h-48 rounded-lg " src="@/assets/project-image-3.png" alt="" />
+                <img class="object-fit w-full h-48 rounded-lg " src="Vuetify-image.png" alt="" />
               </div>
             </a>
             <div class="flex flex-col pt-8 justify-between flex-1">
@@ -78,7 +78,7 @@
               <div class="flex-1">
                 <a href="https://speech-app-kappa.vercel.app/"> </a>
                 <a href="https://speech-app-kappa.vercel.app/" class="block mt-2 space-y-6">
-                  <a href="https://speech-app-kappa.vercel.app/"
+                  <a href="https://vuetify-todo-task.netlify.app/#/"
                     class="relative inline-flex items-center justify-center p-4 px-8 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
                     <span
                       class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-indigo-500 rounded-full blur-md ease"></span>
