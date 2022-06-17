@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-black dark:bg-gray-900">
     <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
       <h2
-        class="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
+        class="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-neutral-600 #d4d4d8 md:text-5xl lg:text-6xl lg:max-w-7xl">
         Dertemined to add value <br />
         in a team
       </h2>
@@ -14,7 +14,7 @@
       </div>
     </div>
   </section>
-  <div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="bg-black py-6 sm:py-8 lg:py-12">
     <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
       <div class="flex justify-between items-center gap-8 mb-4 sm:mb-8 md:mb-12"></div>
 
