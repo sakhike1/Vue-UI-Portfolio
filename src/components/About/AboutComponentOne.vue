@@ -29,7 +29,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
         <div class="relative z-10 lg:py-16">
           <div class="relative h-64 sm:h-80 lg:h-full">
-            <img class="absolute rounded-lg inset-0 object-cover w-full h-full" src="@/assets/Saly50.png"
+            <img class="absolute rounded-lg inset-0 object-cover w-full h-full  hover:scale-90 transition duration-300 ease-in-out" src="@/assets/Saly50.png"
               alt="Indoors house" />
           </div>
         </div>
