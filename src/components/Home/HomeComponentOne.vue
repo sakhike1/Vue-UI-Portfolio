@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
         <div
           class="relative hover:scale-110 transition duration-300 ease-in-out h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-last">
-          <img class="absolute bg-indigo-300 inset-0 object-fit w-full h-full" src="@/assets/heroimage.png"
+          <img class="absolute bg-indigo-300 inset-0 object-fit w-full h-full animate__animated animate__bounceInUp" src="@/assets/heroimage.png"
             alt="Man using a computer" />
         </div>
 
