@@ -28,7 +28,7 @@
             <img class="animate-bounce" src="@/assets/5.png" alt="" />
           </div>
 
-          <div class="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3">
+          <div class="p-8 rounded-lg shadow-lg lg:p-12 lg:col-span-3 p-8 shadow-lg lg:p-12 lg:col-span-3 h-full w-full w-1/2 bg-white rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg">
             <form class="space-y-4">
               <div>
                 <label class="sr-only" for="name">Name</label>
