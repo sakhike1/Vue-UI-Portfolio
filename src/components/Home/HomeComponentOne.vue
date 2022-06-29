@@ -10,7 +10,7 @@
 
         <div class="lg:py-24">
           <h2 class="text-3xl text-white font-bold sm:text-4xl">
-            Frontend developer
+            Front-end developer
           </h2>
 
           <p class="mt-4 text-slate-500">
