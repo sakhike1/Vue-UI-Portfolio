@@ -21,7 +21,7 @@
       </div>
       <div>
         <img
-          class="object-fit rounded-lg w-full h-56 hover:scale-110 transition duration-300 ease-in-out shadow-lg sm:h-96 bg-indigo-600"
+          class="object-fit rounded-lg w-full h-56 hover:scale-90 transition duration-300 ease-in-out shadow-lg sm:h-96 bg-indigo-600"
           src="@/assets/Saly-5.png" alt="" />
       </div>
     </div>
