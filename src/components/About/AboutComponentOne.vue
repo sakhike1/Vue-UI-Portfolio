@@ -72,7 +72,7 @@ export default {
   name: "AboutComponentOne",
   data() {
     return {
-      Resume: "download CV",
+      Resume: "download Resume",
       url: "https://we.tl/t-iWk4Royn8x",
     };
   },
