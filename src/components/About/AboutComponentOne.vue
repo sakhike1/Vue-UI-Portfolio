@@ -19,7 +19,7 @@
               <div class="mt-3 rounded-lg sm:mt-0">
                 <a
                   :href="url"
-                  class="border hover:bg-white space-x-4 hover:text-black text-white hover:border-indigo-300 text-center py-4 px-10 rounded-full"
+                  class="border hover:bg-white space-x-4 py-5 hover:text-black text-white hover:border-indigo-300 text-center px-10 rounded-full"
                   >{{ Resume }}</a
                 >
               </div>
@@ -55,7 +55,7 @@
             </h2>
 
             <a
-              class="hover:bg-indigo-600 border space-x-4 text-white text-center py-4 px-10 rounded-full"
+              class="hover:bg-white hover:text-black border space-x-4 text-white text-center py-4 px-10 rounded-full"
               href="/#Contact"
             >
               Get in Touch
@@ -80,4 +80,3 @@ export default {
 </script>
 
 <style></style>
-
