@@ -16,7 +16,9 @@
             <div
               class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6 pt-6"
             >
-              <div class="mt-3 rounded-lg sm:mt-0">
+              <div
+                class="mt-3 rounded-lg sm:mt-0 animate__animated animate__backInRight"
+              >
                 <a
                   :href="url"
                   class="border hover:bg-white space-x-4 py-5 hover:text-black text-white hover:border-indigo-300 text-center px-10 rounded-full"
