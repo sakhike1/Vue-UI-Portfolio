@@ -17,7 +17,7 @@
               class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6 pt-6"
             >
               <div
-                class="mt-3 rounded-lg sm:mt-0 animate__animated animate__backInRight"
+                class="mt-3 rounded-lg sm:mt-0 animate__animated animate__backInLeft"
               >
                 <a
                   :href="url"
