@@ -58,7 +58,7 @@
         </h1>
 
         <p
-          class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-gray-500"
+          class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-neutral-600"
         >
           Creativity is the driver of an unstoppable train called Passion.
         </p>
