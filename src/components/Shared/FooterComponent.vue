@@ -1,15 +1,9 @@
 <template>
-  <footer
-    class="text-white bg-gradient-to-tl from-blue-700 via-blue-400 to-amber-100 hover:from-blue-200 hover:to-blue-500"
-  >
+  <footer class="text-white bg-black">
     <div class="max-w-screen-xl px-4 pt-32 pb-12 mx-auto sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto text-center">
-        <p class="text-4xl font-bold sm:text-5xl">
-          Do you have a project in mind ?
-        </p>
-
         <a
-          class="inline-block pt-4 px-12 py-4 mt-8 text-sm font-medium border rounded-full border-white/25 hover:bg-white hover:text-yellow-500"
+          class="inline-block px-12 py-4 mt-8 text-sm font-medium border rounded-full border-white hover:bg-white hover:text-yellow-500"
           href="/#Contact"
         >
           Contact me
