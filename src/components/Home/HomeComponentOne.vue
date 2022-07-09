@@ -24,7 +24,7 @@
           </p>
 
           <a
-            class="inline-flex items-center px-8 py-3 mt-8 ease-in-out delay-150 bg-indigo-500 hover:-translate-y-1 text-sm transition-colors duration-300 shadow-xl text-violet-100 bg-violet-500 hover:bg-violet-600 shadow-violet-400"
+            class="inline-flex items-center px-8 py-3 mt-8 ease-in-out delay-150 bg-indigo-500 hover:-translate-y-1 text-sm transition-colors duration-300 text-violet-100 bg-violet-500 hover:bg-violet-600 shadow-violet-400"
             href="https://vuetify-todo-task.netlify.app/#/"
           >
             <span class="text-sm font-medium">View my work</span>
