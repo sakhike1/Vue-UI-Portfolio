@@ -5,10 +5,4 @@ import router from './router'
 import "./assets/tailwind.css";
 import './assets/tailwind.css';
 
-
-
-
-
-
-
 createApp(App).use(VWave).use(router).mount('#app')
