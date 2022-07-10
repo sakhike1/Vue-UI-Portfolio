@@ -3,8 +3,14 @@
     <div class="max-w-screen-xl px-4 pt-32 pb-12 mx-auto sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto text-center">
         <a
-          class="inline-block px-12 py-4 mt-8 text-sm font-medium border rounded-full border-white hover:bg-white hover:text-yellow-500"
+          class="inline-block px-12 py-4 mt-8 text-sm font-medium border rounded-full border-white"
           href="/#Contact"
+          v-wave="{
+            color: 'gray',
+            initialOpacity: 0.5,
+            duration: 2,
+            easing: 'ease-in',
+          }"
         >
           Contact me
         </a>
