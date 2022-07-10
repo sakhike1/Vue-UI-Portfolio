@@ -19,7 +19,7 @@
             with technology.
           </p>
 
-          <a class="inline-flex items-center px-8 py-3 mt-8 ease-in-out delay-150 rounded-full border hover:-translate-y-1 text-sm transition-colors duration-300 shadow-xl text-violet-100 shadow-violet-400"
+          <a class="inline-flex items-center px-8 py-3 mt-8 ease-in-out delay-150 rounded-full border hover:-translate-y-1 text-sm transition-colors duration-300  text-violet-100 shadow-violet-400"
             href="https://vuetify-todo-task.netlify.app/#/" v-wave="{ color: 'gray' }">
             <button>View work</button>
             <svg class="w-5 h-5 ml-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
