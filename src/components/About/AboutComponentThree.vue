@@ -93,7 +93,8 @@
             <div class="mt-3 rounded-lg sm:mt-0">
               <a
                 href="https://vuetify-todo-task.netlify.app/#/"
-                class="hover:bg-white hover:text-black border space-x-4 text-white text-center py-4 px-10 rounded-full"
+                class="border space-x-4 text-white text-center py-4 px-10 rounded-full"
+                v-wave="{ color: 'gray' }"
                 >See projects</a
               >
             </div>
@@ -132,3 +133,4 @@ export default {};
 </script>
 
 <style></style>
+
