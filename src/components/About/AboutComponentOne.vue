@@ -1,4 +1,4 @@
-<template>
+template>
   <section class="w-full bg-black">
     <div
       class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24"
@@ -21,7 +21,8 @@
               >
                 <a
                   :href="url"
-                  class="border hover:bg-white space-x-4 py-5 hover:text-black text-white hover:border-indigo-300 text-center px-10 rounded-full"
+                  v-wave="{ color: 'gray' }"
+                  class="border space-x-4 py-5 text-white text-center px-10 rounded-full"
                   >{{ Resume }}</a
                 >
               </div>
@@ -57,8 +58,9 @@
             </h2>
 
             <a
-              class="hover:bg-white hover:text-black border space-x-4 text-white text-center py-4 px-10 rounded-full"
+              class="border space-x-4 text-white text-center py-4 px-10 rounded-full"
               href="/#Contact"
+              v-wave="{ color: 'gray' }"
             >
               Get in Touch
             </a>
@@ -82,3 +84,4 @@ export default {
 </script>
 
 <style></style>
+
