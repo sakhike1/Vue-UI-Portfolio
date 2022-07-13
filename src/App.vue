@@ -1,6 +1,6 @@
 <template>
   <router-view v-slot="{ Component }">
-    <div class="bg-gradient-to-r from-purple-400 to-yellow-400">
+    <div class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
       <nav
         class="container px-6 py-12 mx-auto md:flex md:justify-between md:items-center"
       >
