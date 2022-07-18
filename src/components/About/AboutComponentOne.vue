@@ -22,7 +22,7 @@
                 <a
                   :href="url"
                   v-wave="{ color: 'gray' }"
-                  class="border space-x-4 py-5 text-white text-center px-10 rounded-full"
+                  class="border hover:bg-indigo-200 hover:bg-opacity-10 space-x-4 py-5 text-white text-center px-10 rounded-full"
                   >{{ Resume }}</a
                 >
               </div>
@@ -58,7 +58,7 @@
             </h2>
 
             <a
-              class="border space-x-4 text-white text-center py-4 px-10 rounded-full"
+              class="border hover:bg-indigo-200 hover:bg-opacity-10 space-x-4 text-white text-center py-4 px-10 rounded-full"
               href="/#Contact"
               v-wave="{ color: 'gray' }"
             >
@@ -83,4 +83,4 @@ export default {
 };
 </script>
 
-
+<style></style>
