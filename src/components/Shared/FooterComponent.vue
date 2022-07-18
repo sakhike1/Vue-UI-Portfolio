@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl px-4 pt-32 pb-12 mx-auto sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto text-center">
         <a
-          class="inline-block px-12 py-4 mt-8 text-sm font-medium border rounded-full border-white"
+          class="inline-block hover:-translate-y-1 transition-colors duration-300 px-12 hover:bg-indigo-200 hover:bg-opacity-10 py-4 mt-8 text-sm font-medium border rounded-full border-white"
           href="/#Contact"
           v-wave="{
             color: 'gray',
@@ -22,11 +22,11 @@
         <div class="flex justify-center mt-6 space-x-6 sm:justify-end sm:mt-0">
           <a
             class="p-2 border rounded-full border-white/25 hover:opacity-75"
-            href=""
+            v-bind:href="url"
             target="_blank"
             rel="noreferrer"
           >
-            <span class="sr-only"> Linkedin </span>
+            <span class="sr-only"> {{ Linkedin }} </span>
 
             <svg
               class="w-6 h-6 text-blue fill-current"
@@ -40,11 +40,11 @@
           </a>
           <a
             class="p-2 border rounded-full border-white/25 hover:opacity-75"
-            href="https://github.com/sakhike1"
+            :href="github"
             target="_blank"
             rel="noreferrer"
           >
-            <span class="sr-only">github </span>
+            <span class="sr-only">{{ github }}</span>
 
             <svg
               class="w-6 h-6 text-blue fill-current"
@@ -63,7 +63,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "FooterComponent",
+  data() {
+    return {
+      Linkedin: "url",
+      url: "https://www.linkedin.com/in/saks4/",
+      github: "github",
+      github: "https://github.com/sakhike1",
+    };
+  },
+};
 </script>
 
 <style></style>
