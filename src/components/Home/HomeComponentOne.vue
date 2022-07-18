@@ -24,7 +24,7 @@
           </p>
 
           <a
-            class="inline-flex items-center px-8 py-3 mt-8 ease-in-out hover:bg-indigo-200 hover:bg-opacity-10 delay-150 rounded-full border hover:-translate-y-1 text-sm transition-colors duration-300 shadow-xl text-violet-100 shadow-violet-400"
+            class="inline-flex items-center px-8 py-3 mt-8 ease-in-out hover:bg-indigo-200 hover:bg-opacity-10 delay-150 rounded-full border hover:-translate-y-1 text-sm transition-colors duration-300  text-violet-100 shadow-violet-400"
             href="https://vuetify-todo-task.netlify.app/#/"
             v-wave="{ color: 'gray' }"
           >
