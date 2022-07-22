@@ -77,7 +77,7 @@ export default {
   data() {
     return {
       Resume: "Download resume",
-      url: "https://we.tl/t-iWk4Royn8x",
+      url: "https://we.tl/t-tReZBjJ75l",
     };
   },
 };
