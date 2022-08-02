@@ -7,7 +7,7 @@
         <div class="flex items-center justify-between">
           <router-link
             to="/"
-            class="font-bold text-white md:text-2xl hover:text-orange-400"
+            class="font-bold text-white md:text-2xl hover:text-orange-100"
             >Sakhile's Portfolio
           </router-link>
           <!-- Mobile menu button -->
@@ -31,19 +31,31 @@
           :class="showMenu ? 'flex' : 'hidden'"
           class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
         >
-          <li><router-link class="text-gray-100" to="/">Home</router-link></li>
           <li
-            ><router-link class="text-gray-100" to="/about"
+            ><router-link
+              class="text-gray-400 text-sm hover:text-orange-100"
+              to="/"
+              >Home</router-link
+            ></li
+          >
+          <li
+            ><router-link
+              class="text-gray-400 text-sm hover:text-orange-100"
+              to="/about"
               >About me</router-link
             ></li
           >
           <li
-            ><router-link class="text-gray-100" to="/projects"
+            ><router-link
+              class="text-gray-400 text-sm hover:text-orange-100"
+              to="/projects"
               >Projects</router-link
             ></li
           >
           <li
-            ><router-link class="text-gray-100" to="/Contact"
+            ><router-link
+              class="text-gray-400 text-sm hover:text-orange-100"
+              to="/Contact"
               >Contact Me</router-link
             ></li
           >
