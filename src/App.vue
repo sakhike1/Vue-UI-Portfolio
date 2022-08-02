@@ -1,8 +1,8 @@
 <template>
   <router-view v-slot="{ Component }">
-    <div class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
+    <div class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
       <nav
-        class="container px-6 py-12 mx-auto md:flex md:justify-between md:items-center"
+        class="container px-6 py-10 mx-auto md:flex md:justify-between md:items-center"
       >
         <div class="flex items-center justify-between">
           <router-link
@@ -14,7 +14,7 @@
           <div @click="toggleNav" class="flex md:hidden">
             <button
               type="button"
-              class="text-gray-100 hover:text-gray-400 focus:outline-none focus:text-gray-400"
+              class="text-white hover:text-gray-1000 focus:outline-none focus:text-gray-400"
             >
               <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
                 <path
@@ -55,8 +55,10 @@
     </transition>
   </router-view>
 </template>
+
 <script>
 import { ref } from "vue";
+
 export default {
   setup() {
     let showMenu = ref(false);
